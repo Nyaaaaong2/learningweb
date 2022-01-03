@@ -1,0 +1,21 @@
+li {color:blue; font-size:25px}
+header h1 {
+  text-align:center;text-decoration: underline;
+  border-bottom: 4px solid gray;
+  padding: 40px;
+  }
+nav {
+  width:200px;
+  float:left;
+  height:600px;
+  border-right: : 1px solid gray;
+}
+nav ol {
+  list-style: none;
+}
+
+img {
+  width:200px;
+  height:auto;
+  float:left;
+}
