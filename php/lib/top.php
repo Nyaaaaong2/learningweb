@@ -9,7 +9,7 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
-    <title>고객의 발이 되어드리겠습니다_카까오렌트카</title>
+    <title>Developing...</title>
 
     <!-- Favicon -->
     <link rel="icon" href="img/core-img/favicon.ico">
@@ -101,9 +101,9 @@
                                     <!-- Login/Register -->
                                     <div class="login-register-btn mr-50">
                                         <?php if(isset($_SESSION['id'])) { ?>
-                                          <a href="#"><?php if(isset($_SESSION['name'])) {echo $_SESSION['name'];} ?></a>
+                                          <a href="user.php"><?php if(isset($_SESSION['name'])) {echo $_SESSION['name'];} ?></a>
                                           <a href="_logout.php" id="loginBtn"> / Logout</a>
-                                          <a href="_signout.php" id="loginBtn"> / del userinfo</a>
+                                          <!-- <a href="_signout.php" id="loginBtn"> / del userinfo</a> -->
                                         <?php } else { ?>
                                         <a href="login.php" id="loginBtn">Login </a>
                                         <a href="join.php" id="register">  / Register</a>
