@@ -1,9 +1,7 @@
 
-
     <?php
     require('lib/top.php');
      ?>
-
 
     <!-- ##### Hero Area Start ##### -->
     <section class="hero-area">
